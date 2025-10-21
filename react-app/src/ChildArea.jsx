@@ -1,5 +1,12 @@
 export const ChildArea = (props) => {
   const { open } = props;
+  const data = [...Array(2000).keys()]
+
+  console.log('ChildAreaがレンダリングされた')
+
+  data.forEach((d) => {
+    console.log('...')
+  })
 
   return (
     <>
