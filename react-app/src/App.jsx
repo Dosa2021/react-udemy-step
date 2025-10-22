@@ -1,6 +1,8 @@
 import { useState, useCallback } from 'react'
 import './App.css'
 import { ChildArea } from './ChildArea';
+import { InlineStyle } from './components/inlineStyle';
+import { CssModules } from './components/CssModules';
 
 export default function App() {
   const [text, setText] = useState('');
@@ -18,6 +20,10 @@ export default function App() {
 
   return (
     <div className='App'>
+      <InlineStyle />
+      <br />
+      <CssModules />
+      <br />
       <input value={text} onChange={onChangeText} />
       <br />
       <button onClick={onClickOpen}>表示</button>
