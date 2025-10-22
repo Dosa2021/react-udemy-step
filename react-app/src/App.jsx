@@ -3,6 +3,8 @@ import './App.css'
 import { ChildArea } from './ChildArea';
 import { InlineStyle } from './components/inlineStyle';
 import { CssModules } from './components/CssModules';
+import { StyledJsx } from './components/StyledJsx';
+import { StyledComponents } from './components/StyledComponents';
 
 export default function App() {
   const [text, setText] = useState('');
@@ -24,6 +26,9 @@ export default function App() {
       <br />
       <CssModules />
       <br />
+      <StyledJsx />
+      <br />
+      <StyledComponents />
       <input value={text} onChange={onChangeText} />
       <br />
       <button onClick={onClickOpen}>表示</button>
