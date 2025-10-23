@@ -20,6 +20,7 @@ npm run dev
   ・CSS Modules
   ・StyledJsx
   ・StyledComponents
+  ・Emotion
 
 ------------------------------------------------------------------
 
